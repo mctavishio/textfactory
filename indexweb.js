@@ -38,7 +38,10 @@ let head = `<!DOCTYPE html>
 	<script src="${input.codeurl}"></script>
 	<style>
   		body {
-			background: var(--warmgray});
+			background: var(--${input.bodybg[tools.randominteger(0,input.bodybg.length)]});
+		}
+  		main {
+			background: var(--${input.mainbg[tools.randominteger(0,input.mainbg.length)]});
 		}
 	</style>
 </head>`;
@@ -53,37 +56,55 @@ let body = `<body id="top">
 <header>
 	<h1>${input.title}</h1>
 	<h2>${input.subtitle}</h2>
-</header>
+</header>`;
+if(input.hasDashboard) {
+	body=body+`
 <nav>
 	<ul>
 		<!-- <li><a href="#maincontent" id="skiptomaincontent">skip to main content</a></li> -->
 		<li><a href="https://mctavish.io/index.html" id="homelink">go to mctavish portfolio</a></li>
 		<li><a href="#dashboard" id="gotodashboard">access dashboard</a></li>
 	</ul>
-</nav>
-
+</nav>`;
+}
+else {
+	body=body+`
+<nav>
+	<ul>
+		<!-- <li><a href="#maincontent" id="skiptomaincontent">skip to main content</a></li> -->
+		<li><a href="https://mctavish.io/index.html" id="homelink">go to mctavish portfolio</a></li>
+	</ul>
+</nav>`;
+}
+body = body + `
 <div class="screenreader-text">
 	<p>Your feedback is always welcome.</p>
 </div>
-${input.text}
+${input.text}`;
 
+if(input.hasDashboard) {
+	body=body+`
 <fieldset id="dashboard">
 <legend>access dashboard</legend>
 <!-- <label for="sound"><input id="sound" type="checkbox"> play sound</label> -->
 <label for="highcontrast"><input id="highcontrast" type="checkbox"> high contrast</label>
 <label for="largetext"><input id="largetext" type="checkbox"> large text</label>
 <label for="darklight"><input id="darklight" type="checkbox"> dark / light</label>
-</fieldset>
-
+</fieldset>`
+}
+body = body + `
 </main>
 </div>
-<footer>
+<footer>`
+if(input.hasDashboard) {
+	body = body + `
 <p id="animationcontrols" style="min-width:100%">
 <label for="animationonly"><input id="animationonly" type="checkbox"> animation only (hide text)</label>
-</p>
+</p>`;
+}
+	body = body + `
 <p><a href="#top" class="corelink">^ back to top</a></p>
 </footer>
-
 </div> <!-- end contentframe -->
 </body>
 </html>`;
