@@ -50,6 +50,7 @@ module.exports = {
 	<p>
 		tech is often seen being as "resource-less" "objective" "cloud-like" "all-knowing" "pure" "outside the market" just thought science progress not dirty oil-burning, skewed, colonialist, ... this is the manhattan project ... a bunch of brilliant minds (white, priviledged men) working to push forward human understandiing of the world
 	</p>
+	<p>large language models are stochastic parrots, supercharged autocorrect .... hyper-powerful averaging machines</p>
 	</article
 	<article>
 	<header><h1>role of an artist</h1><h2>dada the data</h2></header>
@@ -63,7 +64,7 @@ pollinate :::
 <p>refuse ::: punk it up ::: create "bad text" "hand-hewn artifacts ... zines ... offline</p>
 <p>do we need models trained on hundreds of billions of data points to create a poem about birds?</p>
 <p>the tools we choose influence the work we make ::: cello, printing press, brush, pen, ...</p>
-<p>we get to choose our tools ::: our hands ::: our bodies ::: our minds get to be a part of our creative process
+<p>we get to choose our tools ::: our hands ::: our bodies ::: our minds get to be a part of our creative process</p>
 	</article>
 	<article>
 	<header><h1>references</h1><h2>more soon ...</h2></header>
@@ -78,6 +79,18 @@ pollinate :::
 	<blockquote>
 	<p>"We need to take a step back and acknowledge that simply building ever-larger neural networks is not the right path to generalized intelligence. From first principles, we need to push ourselves to discover more elegant, efficient ways to model intelligence in machines. Our ongoing battle with climate change, and thus the future of our planet, depend on it."</p>
 	<p><a href="https://www.forbes.com/sites/robtoews/2020/06/17/deep-learnings-climate-change-problem/?sh=5556d9a66b43">energy use link</a></p>
+	</blockquote>
+	<p><a href="https://www.govtech.com/question-of-the-day/how-much-water-does-chatgpt-drink-for-every-20-questions-it-answers">How much water does ChatGPT ‘drink’ for every 20 questions it answers?</a></p>
+	<blockquote>
+	<p>"he high cost of training and “inference” — actually running — large language models is a structural cost that differs from previous computing booms. Even when the software is built, or trained, it still requires a huge amount of computing power to run large language models because they do billions of calculations every time they return a response to a prompt. By comparison, serving web apps or pages requires much less calculation."</p>
+	<p><a href="https://www.cnbc.com/2023/03/13/chatgpt-and-generative-ai-are-booming-but-at-a-very-expensive-price.html">cnbc: the cost of ai</a></p>
+	</blockquote>
+	<blockquote>
+	<p>"To take just one example that’s very much in the news, ChatGPT-3—which we wrote about recently—has 175 billion machine learning (ML) parameters. It was trained on high-powered NVIDIA V100 graphical processing units (GPU), but researchers say it would have required 1,024 GPUs, 34 days and $4.6 million if done on A100 GPUs.
+</p><p>
+And while energy consumption was not officially disclosed, it is estimated that ChatGPT-3 consumed 936 MWh. That’s enough energy to power approximately 30,632 US households for one day, or 97,396 European households for the same period."
+</p>
+<p><a href="https://digitally.cognizant.com/ais-energy-use-isnt-sustainable-enter-tinyml-wf1584550">Cognizant blog</a></p>
 	</blockquote>
 	</article>`,
 }
