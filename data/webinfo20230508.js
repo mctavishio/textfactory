@@ -20,25 +20,27 @@ module.exports = {
 	knot intelligence hand intelligence weave intelligence organic intelligence photosynthetic intelligence tactile intelligence heart intelligence walking intelligence luminous half-closed eye subliminal intelligence
 	local knowledge fleeting moment thoughts
 	</p>
-	<p>to know to no to immerse in the ecstatic electric torrent</p>
-	<p>to become fodder chalk outline vacant stalk</p>
 	</article>
 	<article>
 	<header>
 	<h1>problematic physics</h1>
 	</header>
+	<blockquote>
+	<p>to know to no to immerse in the ecstatic electric torrent</p>
+	<p>to become fodder chalk outline vacant stalk</p>
+	</blockquote>
 	<p>
 	opaque, innumerable, unknowable model parameters
 	</p>
 	<p>unexamined model dimensions not explicit not transparent not articulated expressed considered</p>
 	<p>goals not confessed unexamined intentions implicit profit motives capitalist frameworks</p>
 	<p>circular reasoning ::: model; training evaluation text spew becomes text input becomes confirmation</p>
-	<p>vast data input becomes hyperlocal, averaged output</p>
+	<p>vast (yet skewed) data input becomes hyperspecific, averaged output</p>
 	<p>
 	averaging ::: we can all sound like the mean expression of slanted datasets
 	</p>
 	<p>these are hyper efficient colonization machines</p>
-	<p>a confirmation bias dream machine ::: it is an endless, escher-like mirror of the uber-kings of data ::: show me what a tech worker looks like ... check! looks right to me!</p>
+	<p>a confirmation bias dream machine ::: it is an endless, escher-like mirror of the uber-kings of data ::: show me what a tech worker looks like ... check! looks right to me! (says the echo chamber)</p>
 	<p>
 		resources / effort / emphasis should be expended in creating self-documenting neural leaps / compression / distillation ... filters / assumptions / the shape of data that honed parameters ::: but this has no market value & there is very little regulating the application of these highly inaccurate, unpredictable tools on real-life problems that impact real people in real time
 	</p>
