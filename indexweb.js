@@ -35,7 +35,6 @@ let head = `<!DOCTYPE html>
 	
 	<!-- Google Analytics -->
 	<link rel="stylesheet" href="${input.cssurl}"/>
-	<script src="${input.codeurl}"></script>
 	<style>
   		body {
 			background: var(--${input.bodybg[tools.randominteger(0,input.bodybg.length)]});
@@ -72,7 +71,7 @@ else {
 <nav>
 	<ul>
 		<!-- <li><a href="#maincontent" id="skiptomaincontent">skip to main content</a></li> -->
-		<li><a href="https://mctavish.io/index.html" id="homelink">go to mctavish portfolio</a></li>
+		<li><a href="https://mctavish.work/index.html" id="homelink">go to mctavish portfolio</a></li>
 	</ul>
 </nav>`;
 }
@@ -107,6 +106,13 @@ if(input.hasDashboard) {
 </footer>
 </div> <!-- end contentframe -->
 </body>
+	<script src="${input.codeurl}"></script>
+	<script>let B = ${input.B}</script>
+<script>
+window.addEventListener('load', e => {
+  z.draw(B);
+ });
+ </script>
 </html>`;
 fs.writeFileSync(indexname, head+body, (err) => {
   if (err)

@@ -1,62 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>text Factory</title>
-	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-	<meta name="description" content="thoughts and experiments in handmade code / generative text"/>
-	<meta name="author" content="kathy mctavish">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "WebPage",
-			"name": "text Factory",
-			"breadcrumb": "textfactory > text Factory",
-          	"url": "https://textfactory.work/index.html",
-			"description": "thoughts and experiments in handmade code / generative text",
-			"datePublished": "Sun May 14 2023 14:21:43 GMT-0500 (Central Daylight Time)",
-          	"image": "https://mctavish.work//apple-touch-icon.png",
-			"author": "https://mctavish.studio/bio.html",
-			"license": "http://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en.US"
-		}
-	</script>
-	
-	<!-- Google Analytics -->
-	<link rel="stylesheet" href="/css/core.css"/>
-	<style>
-  		body {
-			background: var(--red);
-		}
-  		main {
-			background: var(--black);
-		}
-	</style>
-</head><body id="top">
-<div id="subtextframe" class="frame zlowest"></div>
-<div id="svgframe" class="frame zlow"><svg xmlns="http://www.w3.org/2000/svg" id="svg" class="frame"></svg></div>
-<div id="wordframe" class="frame z0"></div>
-<div id="contentframe" class="absolute zhighest">
-
-<div id="mainflex">
-<main id="main">
-<header>
-	<h1>text Factory</h1>
-	<h2>research on algorithmic text</h2>
-</header>
-<nav>
-	<ul>
-		<!-- <li><a href="#maincontent" id="skiptomaincontent">skip to main content</a></li> -->
-		<li><a href="https://mctavish.work/index.html" id="homelink">go to mctavish portfolio</a></li>
-	</ul>
-</nav>
-<div class="screenreader-text">
-	<p>Your feedback is always welcome.</p>
-</div>
-<article>
+module.exports = {
+	title: "text Factory",
+	subtitle: "research on algorithmic text",
+	abstract: "thoughts and experiments in handmade code / generative text",
+	indexname: "index.html",
+	root: "textfactory",
+	url: "https://textfactory.work/index.html",
+	hasDashboard: false,
+	hasAnimation: false,
+	cssurl: "/css/core.css",
+	codeurl: "/code/core.js",
+	bodybg: ["warmgray","warmblack","red"],
+	mainbg: ["warmgray","warmblack","black"],
+	pictureurl: "https://mctavish.work//apple-touch-icon.png",
+	text: `<article>
 	<header>
 	<h1>intelligence</h1>
 	</header>
@@ -138,19 +94,35 @@ And while energy consumption was not officially disclosed, it is estimated that 
 </p>
 <p><a href="https://digitally.cognizant.com/ais-energy-use-isnt-sustainable-enter-tinyml-wf1584550">Cognizant blog</a></p>
 	</blockquote>
-	</article>
-</main>
-</div>
-<footer>
-<p><a href="#top" class="corelink">^ back to top</a></p>
-</footer>
-</div> <!-- end contentframe -->
-</body>
-	<script src="/code/core.js"></script>
-	<script>let B = undefined</script>
-<script>
-window.addEventListener('load', e => {
-  z.draw(B);
- });
- </script>
-</html>
+	</article>`,
+}
+/*
+knot intelligence hand intelligence
+
+- problem with the physics of LLM 
+	- opaque parameters / dimensions / variables
+	- circular train / evaluation ::: limited dataset / limited feedback providers / limited evaluation data
+	- escher mirror ... show me what a tech worker looks like ... check! looks right to me!
+	- complexity of model ::: not human-understandable, not "elegant"
+		-putting resources / effort / emphasis on self-documenting nural leaps / compression / distillation ... filters / assumptions / the shape of data that honed parameters has no market value
+		- tech is always seen as "resource-less" "objective" "cloud-like" "all-knowing" "pure" "outside the market" just thought science progress not dirty oil-burning, skewed, colonialist, ... this is the manhattan project ... a bunch of brilliant minds (white, priviledged men) working to push forward human understandiing of the world
+		- like a "classics" education ... "The Classics" 
+	- a world / landscape of text ::: worldly, tactile, cross-sensory experience filtered through text is the basis for LLM
+	- averaging ::: we can all sound like the mean expression of slanted datasets
+- problem with the environmental cost of LLM AI
+- problem with the data of AI
+- problem with the tool of AI in art production / human communication
+
+## Notes on touch ##
+
+Glass touch ::: tap tap tap ::: reduction of communication to body-less, linear, word tapping ::: message transmission
+
+Need for language to talk about AI models in the commons
+See the rapid innovation and language emergence in the ProTactile community
+Interest in the expanded meaning of a touch-centered communication mode
+
+the role of the artist ::: resist flood refuse queer-up dada
+uber ze honey hive ::: electric phosynthetic queen ::: networked revolutionaries artists of the world :::
+pollinate
+
+*/

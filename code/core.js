@@ -117,7 +117,7 @@ let getz = B => {
 		B.elements.forEach( element => {
 			let svgel = document.querySelector("svg");
 			let xmlns = "http://www.w3.org/2000/svg";
-			element.el = createElement({parentel=svgel, tag=element.tag, attributes=[], cssclasses=element.cssclasses, cssstyles=[], ns=xmlns});
+			element.el = createElement({parentel:svgel, tag:element.tag, attributes:[], cssclasses:element.cssclasses, cssstyles:[], ns:xmlns});
 		});
 	})(B);
 	z.draw = (B,t,dimensions) => {

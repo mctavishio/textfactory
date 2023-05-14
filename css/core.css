@@ -279,7 +279,12 @@ footer {
 #contentframe.largetext {
 	font-size: 1.4rem;
 }
-
+blockquote {
+	padding: 2em;
+	margin:0;
+	font-size:.8rem;
+	font-style: italic;
+}
 .gallery {
 	min-width: 95%;
 	display: flex;
